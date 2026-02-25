@@ -1,48 +1,80 @@
-# Transformada-Fourier-Senales
+# Simulación y Análisis de Señales con la Transformada de Fourier
 
-Simulación y análisis de señales con FFT en Python
+# Objetivo
 
-\# Simulación y análisis de señales con Transformada de Fourier
+# 
 
+# Analizar señales en el dominio del tiempo y frecuencia utilizando Python y la Transformada de Fourier (FFT).
 
+# 
 
-Este proyecto analiza señales en el dominio del tiempo y frecuencia utilizando Python.
+# Señales Analizadas
 
+# 
 
+# Señal senoidal
 
-\## Señales analizadas
+# 
 
-\- Señal senoidal
+# Pulso rectangular
 
-\- Pulso rectangular
+# 
 
-\- Función escalón
+# Función escalón
 
+# 
 
+# Metodología
 
-\## Herramientas utilizadas
+# 
 
-\- NumPy
+# Generación de señales en el dominio del tiempo.
 
-\- Matplotlib
+# 
 
+# Aplicación de la Transformada de Fourier usando numpy.fft.fft.
 
+# 
 
-\## Objetivo
+# Visualización de magnitud del espectro.
 
-Aplicar la Transformada Rápida de Fourier (FFT) para analizar la representación espectral de señales.
+# 
 
+# Verificación de propiedades:
 
+# 
 
-\## Resultados
+# Linealidad
 
-Se graficó la señal en el dominio del tiempo y su espectro en frecuencia, verificando propiedades como:
+# 
 
-\- Linealidad
+# Desplazamiento en el tiempo
 
-\- Desplazamiento temporal
+# 
 
-\- Escalamiento en frecuencia
+# Escalamiento en frecuencia
 
+# 
 
+# Resultados
+
+# 
+
+# La señal senoidal presenta picos discretos en frecuencia.
+
+# 
+
+# El pulso rectangular genera un espectro tipo sinc.
+
+# 
+
+# La función escalón contiene múltiples componentes de alta frecuencia.
+
+# 
+
+# Conclusión
+
+# 
+
+# La Transformada de Fourier permite identificar las componentes frecuenciales de una señal y comprender cómo su comportamiento temporal impacta su representación espectral.
 
